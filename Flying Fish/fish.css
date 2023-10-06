@@ -1,0 +1,102 @@
+
+.welcome{
+
+    color: rgb(4, 1, 17);
+    font-size: 140px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0 30px 0;
+
+}
+
+.outsideDiv {
+    height: 450px;
+    font-size: 40px;
+    text-align: center;
+    background-image: linear-gradient(rgb(92, 141, 141), rgb(209, 208, 178));
+}
+
+.waves{
+    background-image: url("waves v5.png");
+    height: 250px;
+    width: 100%;
+    top: 300px;
+    position: absolute;
+    opacity: 0.9;
+ 
+}
+
+
+html, * { 
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+.bobbert { 
+    width: 150px;
+    position: absolute;
+
+
+
+    
+}
+
+.blueCSS { 
+    position: absolute;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.log{
+    position: fixed;
+    top: 0px;
+    left:10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-family: 'Caveat', cursive; 
+    background-image: linear-gradient(rgb(148, 211, 211), rgb(25, 35, 99));
+    /* ABOVE WON'T WORK UNLESS YOUR PAGE IS LONG */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    width: 100%;
+       
+}
+
+.pageBottom { 
+    background-image: rgb(25, 35, 99);
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 400px;
+    margin-top: 5000px;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+/*body {
+    font-family: 'Caveat', cursive;
+    background-image: linear-gradient(to bottom, rgb(42, 122, 226) 0%,  rgb(5, 2, 58) 100% );
+    background-color: rgb(42, 122, 226); /*sets top half of color 
+    background-size: 100% 50%; /*divides background into top and bottom 
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Add this line to make the background cover the entire page 
+    
+    other shit i've tried for bottom div: 
+    .pageBottom { 
+    background-image: url("https://t4.ftcdn.net/jpg/00/09/35/79/360_F_9357912_fhguxz5auyJhsIR5J7Ps33lN3voECmNi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container
+    height: 400px;
+    margin-top: 6000px;
+} */
+
+
+
+
